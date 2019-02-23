@@ -2,7 +2,12 @@
   display: flex;
   background-color: #883e24;
   padding-top: 60px;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
+}
+.row2 {
+  display: flex;
+  background-color: #883e24;
+  /* border: 1px solid blue; */
 }
 
 .menu-image {
@@ -13,7 +18,7 @@
 .row-container {
   display: flex;
   flex: 1;
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
 }
 
 .row-container-1 {
@@ -26,7 +31,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 @media (max-width: 768px) {
@@ -41,6 +46,9 @@
 
 @media (max-width: 500px) {
   .row1 {
+    flex-direction: column;
+  }
+  .row2 {
     flex-direction: column;
   }
 }

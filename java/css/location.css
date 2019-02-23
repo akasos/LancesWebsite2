@@ -1,0 +1,18 @@
+.row {
+  display: flex;
+}
+
+.row-container {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid blue; */
+  background-color: #883e24;
+}
+
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
+}
