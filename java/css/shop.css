@@ -5,6 +5,12 @@
   border: 1px solid blue;
 }
 
+.row2 {
+  display: flex;
+  background-color: #883e24;
+  border: 1px solid blue;
+}
+
 .menu-image {
   width: 100%;
   height: auto;
@@ -41,6 +47,9 @@
 
 @media (max-width: 500px) {
   .row1 {
+    flex-direction: column;
+  }
+  .row2 {
     flex-direction: column;
   }
 }
